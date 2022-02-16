@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Niveau, sans-serif;
+  background-image: url("https://www.swr.de/swr1/rp/programm/1598846130721,fitnessstudio-114~_v-16x9@2dXL_-77ed5d09bafd4e3cf6a5a0264e5e16ea35f14925.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100px;
+}
+
+header {
+  background-color: #181d1e;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menubar {
+  height: 60px;
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.image {
+  width: 78px;
+  height: 40px;
+  justify-content: flex-start;
+}
+
+img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.navbar a {
+  font-size: 12px;
+  color: #ececec;
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  background-color: #2d3132;
+  transition: all 0.5s;
+}
+
+.flexright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexright button {
+  border-radius: 25px;
+  background-color: #ed6a12;
+  color: #ececec;
+  font-size: 12px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-right: 45px;
+}
+
+.flexright button:hover {
+  background-color: #f18841;
+  transition: all 0.5s;
+}
+
+.flexright i {
+  font-size: 15px;
+  color: #ececec;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.flexright i:hover {
+  background-color: #2d3132;
+  transition: all 0.5s;
+}
+
+section {
+  background-color: #fdedd4;
+}
+
+.headbar {
+  color: #444444;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 15px;
+  font-size: 12px;
+}
+
+.headbar a {
+  color: #f18841;
+}
+
+.headbar i,
+strong,
+p {
+  padding: 0 3px;
+}
+
+.headbar a {
+  padding: 0 3px;
+}
